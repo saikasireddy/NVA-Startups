@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.venv/
+venv/
+env/
+
+# Backend runtime artifacts
+backend/.venv/
+backend/chat_history.db
+backend/faiss_index/
+
+# Node / Next.js
+node_modules/
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# Environment files
+.env
+.env.*
+!.env.example
+frontend/.env.local
+
+# IDE / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
